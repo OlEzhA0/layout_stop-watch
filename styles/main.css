@@ -13,8 +13,8 @@ html {
   .watch:after {
     content: "";
     position: absolute;
-    top: 50%;
-    left: 255px;
+    top: 49%;
+    left: 51%;
     transform: translate(-50%, -50%);
     border-radius: 30px;
     box-sizing: border-box;
@@ -23,11 +23,11 @@ html {
 
 .watch-min {
   position: absolute;
-  height: 160px;
+  height: calc((500px / 2) / 1.5);
   width: 10px;
   left: 50%;
-  top: 90px;
-  transform: translate(-50%);
+  bottom: 50%;
+  transform: translate(-50%, -50%);
   background-color: #a13636;
   border-radius: 5px;
   -webkit-animation: rotate 3600s linear infinite;
@@ -36,11 +36,11 @@ html {
 
 .watch-sec {
   position: absolute;
-  height: 220px;
+  height: calc((500px / 2) / 1.15);
   width: 10px;
   left: 50%;
-  top: 30px;
-  transform: translate(-50%);
+  bottom: 50%;
+  transform: translate(-50%, 50%);
   background-color: #004600;
   border-radius: 5px;
   -webkit-animation: rotate 60s linear infinite;
@@ -66,16 +66,17 @@ html {
   transform: translate(-50%); }
 
 .six {
-  top: 90%;
+  bottom: 2%;
   left: 50%;
   transform: translate(-50%); }
 
 .three {
-  left: 90%;
+  right: 2%;
   top: 50%;
   transform: translate(0, -50%); }
 
 .nine {
+  left: 2%;
   top: 50%;
   transform: translate(0, -50%); }
 
@@ -84,9 +85,9 @@ html {
   color: black;
   width: 60px;
   height: 60px;
-  font-size: 60px;
+  font-size: calc(500px / 8.33);
   text-align: center;
-  line-height: 40px;
+  line-height: calc(500px / 8.33);
   font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
